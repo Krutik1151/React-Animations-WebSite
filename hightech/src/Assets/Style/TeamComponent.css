@@ -1,0 +1,177 @@
+.team-box-container {
+
+    width: 80%;
+    background: #F2F2F4;
+    position: relative;
+}
+
+.team-box-container::before {
+    display: block;
+    content: "";
+    position: relative;
+    top: 35px;
+    background: #26D48C;
+    clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
+    padding: 60px;
+    opacity: 1;
+}
+
+.team-box-layer {
+
+    width: 100%;
+    background: #26D48C;
+    height: 95px;
+    position: absolute;
+    top: 0;
+}
+
+.team-box-img {
+
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    top: -25px;
+    border-radius: 50%;
+    outline: 10px solid white;
+}
+
+.team-box-img>img {
+
+    border-radius: 50%;
+    border: 10px solid #26D48C;
+    transition: .7s;
+}
+
+.team-box-container:hover .team-box-img>img {
+
+    transform: scale(1.1);
+}
+
+.team-info {
+
+    background: #F2F2F4;
+    padding-bottom: 15px;
+}
+
+.team-info h1 {
+
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.team-box-container:hover .team-info h1 {
+
+    color: blue;
+}
+
+.team-info p {
+
+    font: 1rem;
+    text-align: center;
+    opacity: .6;
+}
+
+.team-icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-icon span {
+
+    padding: 15px;
+    background: #26D48C;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.team-icon span i {
+
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.owl-prev {
+    position: absolute;
+   
+    top: -90px;
+    right: 15%;
+    width: 45px;
+    height: 40px;
+    background: #26D48C !important;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: .6s;
+}
+
+.owl-next {
+    position: absolute;
+    top: -90px;
+    right: 10%;
+    width: 45px;
+    height: 40px;
+    background: #26D48C !important;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: .6s;
+}
+
+
+
+.owl-prev:hover,
+.owl-next:hover {
+    background: blue !important;
+}
+
+
+
+
+.team-box-container {
+    width: 80%;
+    background: #F2F2F4;
+    position: relative;
+    margin-left: 35px;
+}
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+    .owl-prev {
+        top: -52px;
+        right: 53%;
+    }
+    .owl-next {
+        top: -52px;
+        right: 44%;
+    }
+}
+@media (max-width: 576px){
+    .team-box-container {
+        margin-left: 35px;
+    }
+    .owl-prev {
+        top: -52px;
+        right: 53%;
+    }
+    .owl-next {
+        top: -52px;
+        right: 40%;
+    }
+}

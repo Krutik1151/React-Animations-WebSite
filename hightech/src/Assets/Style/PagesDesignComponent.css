@@ -1,0 +1,29 @@
+.design-container{
+
+    width: 100%;
+    height: 50vh;
+    background: url("../../Assets/img/home-carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.design-container h1{
+
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 46%;
+   
+   
+}
+.design-container h4 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

@@ -1,0 +1,47 @@
+.page{
+
+    margin-top: 95px;
+}
+.page h1 {
+
+    text-align: center;
+}
+.page h1 i {
+
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1842B6;
+}
+.page h2{
+
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.page h3{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.page p{
+
+    font-size: 1.2rem;
+    opacity: .6;
+    text-align: center;
+}
+
+.page button{
+
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    border: none;
+    outline: none;
+    background-color: #1841B5;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+}

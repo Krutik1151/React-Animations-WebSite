@@ -1,0 +1,476 @@
+/* Section 1 start */
+.carousel-inner {
+
+    position: relative;
+}
+
+.carousel-inner .carousel-item img {
+
+    filter: brightness(0.5);
+    height: 100%;
+}
+
+.carousel-caption {
+
+    position: absolute;
+    top: 28%;
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-caption h5 {
+
+    font-size: 1.8rem;
+    color: #26D48C;
+    font-weight: 600;
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.carousel-control-prev {
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 80px;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: blue;
+    transition: .3s;
+}
+
+.carousel-control-next {
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80px;
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: blue;
+    transition: .3s;
+}
+
+.carousel-control-prev:hover {
+    background: #26D48C;
+}
+
+.carousel-control-next:hover {
+
+    background: #26D48C;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.sec-1-buttion button:nth-child(1) {
+
+    background: #26D48C;
+    color: black;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .7s;
+}
+
+.sec-1-buttion button:nth-child(1):hover {
+
+    background: #1B5DAE;
+    color: white;
+}
+
+.sec-1-buttion button:nth-child(2) {
+
+    background: #1B5DAE;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .7s;
+}
+
+.sec-1-buttion button:nth-child(2):hover {
+
+    background: #26D48C;
+    color: black;
+}
+
+/* Section 1 End */
+
+/* Section 2 start */
+
+.sec-2 {
+
+    width: 100%;
+    background: #26D48C;
+}
+
+.main-container {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.counter-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 25%;
+    padding: 45px 10px;
+}
+
+.counter-box .counter h1 {
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1842B6;
+}
+
+.counter-box .counter-info h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+/* Section 2 end */
+
+/* Section 3 start  */
+.sec-3 {
+
+    margin-top: 80px;
+}
+
+/* Section 3 End  */
+
+
+/* Section 4 Start  */
+
+.sec-4 {
+    width: 90%;
+    margin: auto;
+}
+
+.sec-4 h1 {
+
+    font-size: 1.8rem;
+    color: #1842B6;
+    text-align: center;
+}
+
+.sec-4 h3 {
+
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.services-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+/* Section 4 End  */
+
+
+/* Section 5 Start  */
+.sec-5 {
+
+    width: 90%;
+    margin: auto;
+}
+
+.sec-5 h2 {
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1B5DAE;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.sec-5 > h4 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.sec-5-project-container{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Section 5 End  */
+
+
+/* Section 6 Start  */
+.sec-6{
+
+    width: 90%;
+    margin: auto;
+}
+.sec-6 >h3{
+
+    font-size: 1.8rem;
+    color: #1842B6;
+    font-weight: 600;
+    text-align: center;
+}
+.sec-6 >h5{
+
+        font-size: 1.4rem;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+}
+
+.sec-6-blog-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+/* Section 6 End  */
+/* Section 7 Start  */
+.sec-7 {
+
+    width: 90%;
+    margin: 50px auto;
+    margin-top: 70px;
+    
+
+}
+.sec-7 > h5{
+
+    font-size: 1.4rem;
+    color: #1842B6;
+    text-align: center;
+}
+.sec-7 > h6 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Section 7 End  */
+
+/* Section 8 Start  */
+
+.sec-8 {
+
+    width: 90%;
+    margin: auto;
+}
+.sec-8 > h2{
+
+    font-size: 1.6rem;
+    text-align: center;
+    color: #1842B6;
+    font-weight: 600;
+}
+.sec-8 > p{
+
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Section 8 End  */
+/* Section 9 Start  */
+
+.sec-9{
+
+    width: 95%;
+    margin: auto;
+    margin-top: 55px;
+    height: 100vh;
+}
+.sec-9-heading{
+
+    width: 40%;
+    margin: auto;
+}
+.sec-9-heading h5{
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1842B6;
+    text-align: center;
+}
+.sec-9-heading h4 {
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+.sec-9-heading p{
+
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: .6;
+    text-align: center;
+}
+
+/* Section 9 End  */
+
+
+
+/* Responsive Design  */
+
+
+
+@media (max-width: 1200px) {
+
+    /* Section 1 Start */
+    .carousel-caption {
+        top: 31%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.6rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+
+    /* Section 1 End */
+}
+
+
+@media (max-width: 992px) {
+
+    /* Section 1 Start */
+    .carousel-caption {
+        top: 17%;
+    }
+
+    .sec-1-buttion button:nth-child(1) {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    .sec-1-buttion button:nth-child(2) {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    /* Section 1 End */
+
+    
+}
+
+@media (max-width: 768px) {
+
+    /* Section 1 Start */
+    .carousel-caption {
+        top: 15%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: .9rem;
+    }
+
+    /* Section 1 End */
+}
+
+@media (max-width: 576px) {
+
+    /* Section 1 Start */
+    .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        top: 10%;
+        padding: 0;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+
+    .carousel-control-prev {
+        width: 45px;
+    }
+
+    .carousel-control-next {
+        width: 45px;
+    }
+
+    /* Section 1 End */
+
+
+    /* section 4 start  */
+    .services-container {
+
+        flex-direction: column;
+    }
+
+    .sec-4 h1 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    .sec-4 h3 {
+        font-size: 1rem;
+    }
+
+    /* section 4 end  */
+
+
+    
+}

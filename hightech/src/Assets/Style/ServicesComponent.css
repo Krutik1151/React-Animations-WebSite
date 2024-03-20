@@ -1,0 +1,116 @@
+.service {
+
+    width: 30%;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.service-layer{
+
+    position: absolute;
+    background: #3454F4;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .7s;
+}
+.service:hover .service-layer{
+
+    top: 0;
+}
+ 
+
+.service-box {
+    padding: 60px 11px;
+}
+
+.service-icon {
+        position: relative;
+        z-index: 99;
+        width: 130px;
+        margin: 15px auto;
+}
+
+.service-icon svg {
+    color: #1842B6;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service:hover .service-icon path  {
+
+    fill: #26D48C;
+}
+.service-heding {
+    margin-bottom: 10px;
+}
+.service-heding h2{
+
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    z-index: 99;
+}
+.service:hover .service-info h2{
+
+    color: black;
+}
+.service-info p{
+
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    opacity: .6;
+}
+.service:hover .service-info p{
+
+    color: white;
+    opacity: .9;
+}
+.service-button button {
+
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background: #26D48C;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    z-index: 99;
+    position: relative;
+}
+
+
+
+
+@media (max-width: 1200px){
+  
+    
+}
+
+@media (max-width: 992px){
+    .service {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}   
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px){
+    .service {
+        width: 80%;
+       
+    }
+}

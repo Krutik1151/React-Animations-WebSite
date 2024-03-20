@@ -1,0 +1,19 @@
+.contact > h3{
+
+    font-size: 1.6rem;
+    font-weight:600 ;
+    text-align: center;
+    color: #1842B6;
+    margin-top: 55px;
+}
+.contact > h1{
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.contact > p{
+
+    text-align: center;
+    margin-bottom: 35px;
+}
